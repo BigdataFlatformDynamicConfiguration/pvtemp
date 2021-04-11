@@ -7,7 +7,7 @@ spec:
     storage: 5Gi
   volumeMode: Filesystem
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   persistentVolumeReclaimPolicy: Recycle
   nfs:
     path: /home/jkhk7788/share/nfs
